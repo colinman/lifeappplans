@@ -1,11 +1,15 @@
 * LBS Time Log
-  CLOCK: [2015-01-17 Sat 22:55]
+  CLOCK: [2015-01-17 Sat 22:55]--[2015-01-17 Sat 23:37] =>  0:42
   CLOCK: [2015-01-17 Sat 16:30]--[2015-01-17 Sat 17:23] =>  0:53
+
+* Colin Time Log
+  CLOCK: [2015-01-20 Tue 16:10]
 
 LBS Ideas
 
-* Maps - improve on google maps 			     :transportation:
+* Maps - improve on google maps			       :transportation:Colin:
 ** Allow for finding scenic routes
+
 
 * Finding things						      :Colin:
 ** Goods and Services
@@ -51,7 +55,12 @@ LBS Ideas
 ** Inventory
 ** Wish
 
-* Efficiency task scheduler					     :Malina:
-** By duration, distance in between
-* Weather detection and prediction				     :Malina:
-* Automatic itinerary generator					     :Malina:
+* Scheduler							     :Malina:
+** Efficiency task scheduler
+*** By duration, distance in between
+** Automatic itinerary generator
+
+
+* Tools								     :Malina:
+** Weather detection and prediction
+
