@@ -5,6 +5,9 @@
 * Colin Time Log
   CLOCK: [2015-01-20 Tue 16:10]
 
+* Malina Time Log
+  CLOCK: [2015-01-24 Sat 1:14]--[2015-01-24 Sat ] =>  fjdshfh
+
 LBS Ideas
 
 * Maps - improve on google maps			       :transportation:Colin:
