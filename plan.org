@@ -3,6 +3,7 @@
   CLOCK: [2015-01-17 Sat 16:30]--[2015-01-17 Sat 17:23] =>  0:53
 
 * Colin Time Log
+  CLOCK: [2015-01-25 Sun 02:05]
   CLOCK: [2015-01-20 Tue 16:10]--[2015-01-20 Tues 17:30] =>  1:20
 
 * Malina Time Log
@@ -14,7 +15,7 @@ LBS Ideas
 ** Allow for finding scenic routes
 
 
-* Finding things						      :Colin:
+* Discovery 							      :Colin:
 ** Goods and Services
 *** Free things, deals, coupons
 *** Fuel, repair tools, equipment, etc.
@@ -36,14 +37,12 @@ LBS Ideas
 ** Food
 *** Find good restaurants that are in the direction of travel
 *** Delivery
-*** Splitting checks 						    :payment:
 
 
 * Entertainment							     :Malina:
 ** Suggested music
 ** Shared pictures 						     :social:
 ** Friend finder 						     :social:
-
 
 * Safety							     :Malina:
 ** Calculate safety index
@@ -66,3 +65,6 @@ LBS Ideas
 
 * Tools								     :Malina:
 ** Weather detection and prediction
+** Splitting checks 						    :payment:
+** Exchange rate calculator
+*** based on location of the phone
