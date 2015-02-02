@@ -1,0 +1,21 @@
+* Time Log
+  CLOCK: [2015-02-02 Mon 15:25]--[2015-02-02 Mon 15:50] =>  0:25
+
+* Colin Time Log
+
+* Malina Time Log
+
+* Colin API's
+** Google Places
+** Stripe
+** Paypal
+** Google Calendar
+** Gmail
+
+* Malina API's
+** Yelp
+** OpenTable
+** Spotify
+** DropBox
+** Google Drive
+** Ebay
