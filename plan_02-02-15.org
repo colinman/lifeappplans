@@ -2,8 +2,10 @@
   CLOCK: [2015-02-02 Mon 15:25]--[2015-02-02 Mon 15:50] =>  0:25
 
 * Colin Time Log
+  CLOCK: [2015-02-02 Mon 15:50]--[2015-02-02 Mon 18:10] =>  2:20
 
 * Malina Time Log
+  CLOCK: [2015-02-02 Mon 15:50]
 
 * Colin API's
 ** Google Places
