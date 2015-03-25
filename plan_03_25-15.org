@@ -1,0 +1,37 @@
+Wireframe API Documentation
+
+* Boards
+** Social Feed Board
+*** Facebook
+**** Your app must not replicate core Facebook features or functionality, and must not promote your other apps that do so.
+***** https://developers.facebook.com/policy
+**** However, all the features are possible (showing posts, likes, comments)
+
+*** Twitter
+**** Rules against replicating core user experience:
+***** You must obtain our permission to have more than 100,000 user tokens, and you may be subject to additional terms.
+***** Use the Twitter API as provided by Twitter for functionalities in your Service that are substantially similar to a Twitter service feature and present this to your users as the default option.
+***** Display a prominent link or button in your Service that directs new users to Twitter’s sign-up functionality.
+**** Do not do the following:
+***** Pay, or offer to pay, third parties for distribution. This includes offering compensation for downloads (other than transactional fees) or other mechanisms of traffic acquisition.
+***** Arrange for your Service to be pre-installed on any device, promoted as a “zero-rated” service, or marketed as part of a specialized data plan.
+***** Use Twitter Content or other data collected from users to create or maintain a separate status update or social network database or service.
+**** i.e. possible to replicate, but not encouraged + limitations exist (must include link to Twitter signup)
+
+*** Google+
+**** Much more lax about replication policy
+***** Don't circumvent any Google+ user interfaces that ensure the user is aware of and agrees to stream posts or the like made on his or her behalf.
+***** Don’t circumvent any Google+ user interfaces or settings that limit the visibility of information, such as stream posts, from others.
+***** https://developers.google.com/+/policies
+**** i.e. make sure that appropriate interfaces are called in order to do posting/data access on the user's behalf
+
+*** Alternatives to replication
+**** Can embed in iframe with limited functionality (would have to interact directly with 3rd party interface and not our own)
+
+*** 'Saving' different items
+
+** News Feed Board
+*** Use Google News RSS feeds
+*** Need better configuration options?
+*** Bing News API (for development of news readers)
+*** 
