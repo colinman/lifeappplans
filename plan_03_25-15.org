@@ -1,5 +1,15 @@
 Wireframe API Documentation
 
+* General
+** Will have to take into account reauthentication (periodic depending on token expiration and duration)
+** Alternatives to replication
+*** Can embed in iframe with limited functionality (would have to interact directly with 3rd party interface and not our own)
+
+
+* Questions
+** 'Saving' different items
+*** where is this supposed to go? what file format? 
+
 * Boards
 ** Social Feed Board
 *** Facebook
@@ -25,13 +35,26 @@ Wireframe API Documentation
 ***** https://developers.google.com/+/policies
 **** i.e. make sure that appropriate interfaces are called in order to do posting/data access on the user's behalf
 
-*** Alternatives to replication
-**** Can embed in iframe with limited functionality (would have to interact directly with 3rd party interface and not our own)
-
-*** 'Saving' different items
-
 ** News Feed Board
 *** Use Google News RSS feeds
 *** Need better configuration options?
 *** Bing News API (for development of news readers)
+*** Feedzilla
+*** Also can use specific newspaper API's & RSS
+**** NY Times
+**** ESPN
+**** Most newspapers offer RSS feeds that can be used to supply data
+*** Will have to decide whether we want to syndicate multiple news sources or use a third party news aggregator
+
+** Cloud Storage Board
+*** Dropbox
+**** Showing files and opening them is okay
+**** Basic Terms:
+***** Don't build apps that promote IP or copyright infringement
+***** Don't copy material from other sites unless you have the right to do so
+***** Don't build file sharing apps
+*** Google Drive
+**** Same restrictions on content, but allow listing as above
 *** 
+
+*** Opening files
