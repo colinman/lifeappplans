@@ -35,6 +35,45 @@ Wireframe API Documentation
 ***** https://developers.google.com/+/policies
 **** i.e. make sure that appropriate interfaces are called in order to do posting/data access on the user's behalf
 
+** Social Photo Board
+*** Instagram
+**** Terms of use:
+***** Do not infringe on rights of Instagram users to their own media.
+***** Cannot use Instagram name in application.
+***** Cannot use Instagram API to crawl or store users' media without their express consent.
+***** Cannot replicate the core user experience.
+***** Do not overload the API with requests.
+****** Limited to 5000 requests per hour per accession_token/client_id (applications that are viewed as spamming will be banned from the platform by spam detection systems).
+**** Can replicate most of core functionality:
+***** Get information about a user.
+***** Get information about a user's relationship to you.
+***** Access most popular photos/videos.
+***** Get and create comments on a media object.
+***** Get and set likes on a media object.
+
+*** Flickr
+**** Terms of use:
+***** Comply with requirements/restrictions imposed on usage of the photos by their owners.
+***** Cannot replicate the essential user experience.
+***** Cannot display more than 30 Flickr user photos per page.
+***** Cannot use unreasonable amount of bandwidth.
+***** If application is commericial, Flickr reserves the right to monitor the application to ensure continued adherence to the terms and conditions.
+***** Cannot use "flickr" or a pink "r" without a preceding "e" in the hostname of the application.
+***** Must place the following notice prominently on your application: "This product uses the Flickr API but is not endorsed or certifed by Flickr."
+***** Cannot use Flickr logo without explicit written permission from Flickr.
+**** Can replicate most of core functionality:
+***** View user comments/photos.
+***** View blogs and upload photos.
+***** Get user conteac lists and favorites.
+***** View galleries and add photos.
+***** Browse, join, leave and search groups.
+***** Tag/untag photos.
+
+*** Pinterest
+**** Can create Pin it buttons.
+**** Can display Pinterest boards.
+***** https://www.concrete5.org/community/forums/customizing_c5/displaying-pinterest-boards/
+
 ** News Feed Board
 *** Use Google News RSS feeds
 *** Need better configuration options?
