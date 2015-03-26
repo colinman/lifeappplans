@@ -4,7 +4,9 @@ Wireframe API Documentation
 ** Will have to take into account reauthentication (periodic depending on token expiration and duration)
 ** Alternatives to replication
 *** Can embed in iframe with limited functionality (would have to interact directly with 3rd party interface and not our own)
-
+** Will still need to check on legal status of branding (even if we can pull files from these services)
+** Need better way to manipulate boards and move them around/add and insert
+** What is the business model?
 
 * Questions
 ** 'Saving' different items
@@ -92,8 +94,57 @@ Wireframe API Documentation
 ***** Don't build apps that promote IP or copyright infringement
 ***** Don't copy material from other sites unless you have the right to do so
 ***** Don't build file sharing apps
+**** https://www.dropbox.com/developers/reference/devguide
 *** Google Drive
 **** Same restrictions on content, but allow listing as above
-*** 
-
+**** https://developers.google.com/terms/
+*** OneDrive
+**** Same restrictions on content, but allow listing as above
+**** https://msdn.microsoft.com/en-us/onedrive/dn735994.aspx
+*** Box
+**** Same restrictions on content, but allow listing as above
+**** https://developers.box.com/box-view-terms/
 *** Opening files
+**** Can use iframe embed (requires client side plugins)
+**** Scribd
+**** Different files require different libraries to implement (common types listed below)
+***** pdf - PDF.js
+****** http://mozilla.github.io/pdf.js/
+***** xls - Google Docs or Zoho Sheet
+****** https://apihelp.wiki.zoho.com/Zoho-API-Developers-Guide.html
+****** https://developers.google.com/google-apps/documents-list/
+***** doc - Google Docs or Zoho Writer
+****** https://apihelp.wiki.zoho.com/Zoho-API-Developers-Guide.html
+****** https://developers.google.com/google-apps/documents-list/
+***** ppt - Google Docs or Slideshare.net
+****** https://developers.google.com/google-apps/documents-list/
+****** http://www.slideshare.net/developers
+
+** Task Management Board
+*** Asana
+**** API exists - not very commonly used
+***** https://asana.com/developers/documentation/getting-started/overview
+*** Wunderlist
+**** API is in public beta (not stable, but hopefully will be by launch)
+***** https://developer.wunderlist.com/documentation
+
+** Notes Board
+*** Terms (paraphrased)
+**** May not be used to create Applications that offer or promote services that may be damaging to Evernote or its licensors, licensees, affiliates and partners
+**** May not be used for or to create Applications that use Content from Evernote without creating an additional or distinct benefit for Evernote's end users
+*** https://dev.evernote.com/doc/reference/api_license.php
+
+** Music/Videos Board
+*** YouTube
+**** The sale of an API Client is PERMITTED! Our exact use case :)
+**** https://developers.google.com/youtube/terms
+*** SoundCloud
+**** Use of API not permitted!
+     Use of the SoundCloud API to aggregate and stream User Content from multiple users on a commercial basis is not permitted
+     this would include any paid app, any in-app purchases which allow access to content or features already available via the SoundCloud platform
+     or any app that features any advertising, sponsorship or promotion around User Content.
+**** You must not use the SoundCloud API to rip or capture any User Content from any part of the SoundCloud platform
+**** Must have privacy policy in place
+**** https://developers.soundcloud.com/docs/api/terms-of-use#privacy
+
+** 
