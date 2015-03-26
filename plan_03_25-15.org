@@ -147,13 +147,22 @@ Wireframe API Documentation
 **** Must have privacy policy in place
 **** https://developers.soundcloud.com/docs/api/terms-of-use#privacy
 
+** Email Management Board
+*** Gmail
+**** Terms of Use
+***** Cannot create an API Client that functions substantially the same as the APIs.
+***** Google sets and enforces limits on the number pf API reuqests that can made at its discretion.
+**** Functionality
+***** Read messages from Gmail.
+***** Send email messages.
+***** Tag messages/threads and change those labels.
+***** Search for specific messages or threads.
+
 ** Instant Messages Board
 *** Facebook
 **** (see Social Feed Board)
-
 *** Viber
 **** Does not have an API at this time.
-
 *** Skype
 **** May not be possible to view messages out of Skype application, though it should be possible to launch Skype from Timeline Universal.
 
@@ -161,9 +170,22 @@ Wireframe API Documentation
 *** QuickBooks API
 **** https://developer.intuit.com/docs/0050_quickbooks_api
 **** Includes Accounting domain and Payments domain
+*** Mint
+**** Tracks all banking accounts and spending so that users can monitor their finances from a single account.
+**** Can generate budgets and projections off of user financial data.
+*** Other websites offer similar services:
+**** Buxfer
+**** Yodlee MoneyCenter
+**** ClearCheckbook
+**** Mvelopes
 
 ** Health Management Board
 *** Would pull data from user's medical accounts, so not associated with any API
+*** APIs that streamline the processing and viewing of patient health data (from the provider side):
+**** TrueVault
+***** Allows healthcare applications and covered entities to share, store, and manage protected health information in accordance with HIPAA Security Rule regulations.
+**** Validic
+***** Connects patient-recorded data from digital health applications, devices, and wearables to key healthcare companies like hospital systems, providers, pharmaeutical companies, payers, health information technology platforms, health clubs, and wellness companies.
 
 ** Transportation Board
 *** No wireframe available yet.
@@ -174,4 +196,9 @@ Wireframe API Documentation
 
 *** Calendar Board
 **** Google Calendar
-***** 
+***** Limitations
+****** Limit of 1,000,000 queries per day (this limitation can be appealed(.
+***** Functionality
+****** Display calendar and associated events, tasks.
+****** Create and delete events.
+****** Invite people to events.
