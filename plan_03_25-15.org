@@ -97,3 +97,35 @@ Wireframe API Documentation
 *** 
 
 *** Opening files
+
+
+
+
+** Instant Messages Board
+*** Facebook
+**** (see Social Feed Board)
+
+*** Viber
+**** Does not have an API at this time.
+
+*** Skype
+**** May not be possible to view messages out of Skype application, though it should be possible to launch Skype from Timeline Universal.
+
+** Money Management Board
+*** QuickBooks API
+**** https://developer.intuit.com/docs/0050_quickbooks_api
+**** Includes Accounting domain and Payments domain
+
+** Health Management Board
+*** Would pull data from user's medical accounts, so not associated with any API
+
+** Transportation Board
+*** No wireframe available yet.
+
+** Tools Board #1
+*** Tracking Board
+**** No wireframe available yet.
+
+*** Calendar Board
+**** Google Calendar
+***** 
